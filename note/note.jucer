@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="zuirtY" name="note" projectType="guiapp" version="1.0.0"
+              bundleIdentifier="com.yourcompany.note" includeBinaryInAppConfig="1"
+              jucerVersion="3.1.0">
+  <MAINGROUP id="ezJR9O" name="note">
+    <FILE id="gaiTmQ" name="NewCompont.cpp" compile="1" resource="0" file="../test/NewCompont.cpp"/>
+    <FILE id="m3O2uq" name="NewCompont.h" compile="0" resource="0" file="../test/NewCompont.h"/>
+    <GROUP id="{16A454D9-F377-F89C-1917-0A4049ED5B46}" name="Source">
+      <FILE id="OVdU3S" name="instrumentMappingEditor.h" compile="0" resource="0"
+            file="Source/instrumentMappingEditor.h"/>
+      <FILE id="Euf155" name="instrumentMappingEditor.cpp" compile="1" resource="0"
+            file="Source/instrumentMappingEditor.cpp"/>
+      <FILE id="IHhaCI" name="instrumentTabWindow.cpp" compile="1" resource="0"
+            file="Source/instrumentTabWindow.cpp"/>
+      <FILE id="XfUuEK" name="instrumentTabWindow.h" compile="0" resource="0"
+            file="Source/instrumentTabWindow.h"/>
+      <FILE id="emujVj" name="instrumentMasterComponent.cpp" compile="1"
+            resource="0" file="Source/instrumentMasterComponent.cpp"/>
+      <FILE id="eoz6U2" name="instrumentMasterComponent.h" compile="0" resource="0"
+            file="Source/instrumentMasterComponent.h"/>
+      <FILE id="S28W7r" name="instrumentComponent.h" compile="0" resource="0"
+            file="Source/instrumentComponent.h"/>
+      <FILE id="RprKVx" name="instrumentComponent.cpp" compile="1" resource="0"
+            file="Source/instrumentComponent.cpp"/>
+      <FILE id="Iz4Vae" name="instrumentBin.h" compile="0" resource="0" file="Source/instrumentBin.h"/>
+      <FILE id="VgS5dJ" name="instrumentBin.cpp" compile="1" resource="0"
+            file="Source/instrumentBin.cpp"/>
+      <FILE id="XpF0Ac" name="menuBar.h" compile="0" resource="0" file="Source/menuBar.h"/>
+      <FILE id="jaAg7S" name="menuBar.cpp" compile="1" resource="0" file="Source/menuBar.cpp"/>
+      <FILE id="fTXWU8" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="GDgOp9" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="KQz2WI" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <LINUX_MAKE targetFolder="Builds/Linux">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" libraryPath="/usr/X11R6/lib/" isDebug="1" optimisation="1"
+                       targetName="noted"/>
+        <CONFIGURATION name="Release" libraryPath="/usr/X11R6/lib/" isDebug="0" optimisation="2"
+                       targetName="note"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../JUCE/modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULES id="juce_audio_basics" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_audio_devices" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_audio_formats" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_audio_processors" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_core" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_cryptography" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_data_structures" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_events" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_graphics" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_gui_basics" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_gui_extra" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_opengl" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_video" showAllCode="1" useLocalCopy="1"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>
